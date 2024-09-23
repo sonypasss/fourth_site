@@ -1,0 +1,112 @@
+body {
+    background-color: rgb(168, 190, 168);
+}
+
+h1 {
+    color: rgb(25, 25, 180);
+    text-align: center;
+    position: relative;
+    right: 156px;
+}
+
+img {
+    display: block;
+    width: 340px;
+    height: 120px;
+}
+
+.button {
+    position: relative;
+    top: 25px;
+}
+
+button {
+    padding: 10px 30px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    color: blue;
+}
+
+button:hover {
+    color: rgb(35, 122, 122);
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px #296e4c;
+}
+
+div {
+    position: relative;
+    bottom: 14px;
+    flex-wrap: wrap;
+
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+}
+
+h2 {
+    color: rgb(37, 37, 182);
+}
+
+.wrapper {
+    margin-top: 22px;
+}
+
+.first {
+    display: flex;
+    justify-content: end;
+    margin-right: 16px;
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    opacity: 0.25;
+}
+
+.second {
+    display: flex;
+    justify-content: end;
+    margin-right: 16px;
+    position: relative;
+    top: 3px;
+    font-size: 20px;
+    opacity: 0.25;
+}
+
+.third {
+    display: flex;
+    justify-content: end;
+    margin-right: 16px;
+    position: relative;
+    top: 3px;
+    font-size: 20px;
+    opacity: 0.25;
+}
+
+.fourth {
+    display: flex;
+    justify-content: end;
+    margin-right: 16px;
+    position: relative;
+    top: 45px;
+    font-size: 20px;
+    opacity: 0.25;
+}
+
+.content,
+h2 {
+    line-height: 20px;
+    margin-left: 15px;
+}
+
+section {
+    background-color: #fff;
+    width: 340px;
+    height: 330px;
+    line-height: 10px;
+    box-shadow: 10px 10px 11.5px 0px #615e5e;
+}

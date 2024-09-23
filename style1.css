@@ -1,0 +1,115 @@
+body {
+    background: linear-gradient(90deg, rgb(172, 172, 250), rgb(183, 216, 209) 100%);
+}
+
+/* Шапка */
+
+h1 {
+    color: blue;
+    text-align: center;
+    position: relative;
+    right: 156px;
+}
+
+
+/* Контент */
+
+article {
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+}
+
+h2 {
+    color: blue;
+}
+.button {
+    position: relative;
+    top: 25px;
+}
+
+button {
+    padding: 10px 30px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    color: blue;
+}
+
+button:hover {
+    color: aqua;
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px #50f7a3;
+}
+
+div {
+    position: relative;
+    bottom: 14px;
+    flex-direction:column-reverse;
+}
+
+.wrapper {
+    margin-top: 22px;
+}
+
+.first {
+    display: flex;
+    justify-content: end;
+    margin-right: 16px;
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    opacity: 0.25;
+}
+
+.second {
+    display: flex;
+    justify-content: end;
+    margin-right: 16px;
+    position: relative;
+    top: 3px;
+    font-size: 20px;
+    opacity: 0.25;
+}
+
+.third {
+    display: flex;
+    justify-content: end;
+    margin-right: 16px;
+    position: relative;
+    top: 3px;
+    font-size: 20px;
+    opacity: 0.25;
+}
+
+.fourth {
+    display: flex;
+    justify-content: end;
+    margin-right: 16px;
+    position: relative;
+    top: 45px;
+    font-size: 20px;
+    opacity: 0.25;
+}
+
+img {
+    display: block;
+    width: 340px;
+    height: 120px;
+}
+
+.content,
+h2 {
+    line-height: 20px;
+    margin-left: 15px;
+}
+
+section {
+    background-color: #fff;
+    width: 340px;
+    height: 330px;
+    line-height: 10px;
+    box-shadow: 10px 10px 11.5px 0px #615e5e;
+}
